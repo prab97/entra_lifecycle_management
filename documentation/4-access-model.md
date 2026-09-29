@@ -58,3 +58,22 @@ Expected result:
 4. Finance application access becomes available.
 
 This demonstrates attribute-driven access management.
+
+              IDENTITY LIFECYCLE
+                     │
+       ┌─────────────┼─────────────┐
+       ↓             ↓             ↓
+    JOINER         MOVER         LEAVER
+       │             │             │
+       ↓             ↓             ↓
+   New user      Department      User leaves
+                  changes            │
+       │             │               ↓
+       ↓             ↓           Disable
+   Provision     Recalculate      account
+       │          access             │
+       ↓             │               ↓
+   Group/access      ↓           Remove access
+                  Update             │
+                                    ↓
+                              Lifecycle Workflow
