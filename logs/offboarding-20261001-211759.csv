@@ -1,0 +1,2 @@
+"Timestamp","UserDisplayName","UserPrincipalName","UserId","Department","JobTitle","AccountEnabledBefore","AccountEnabledAfter","LeaverHoldGroup","HoldMembershipBefore","HoldMembershipAfter","HoldAddedByScript","Action","Result"
+"2026-10-01 21:17:59","Oliver Shein","olivershein@UniversityofBirmignham.onmicrosoft.com","00b318f8-49a1-46aa-9c46-e11bad70cd54",,"Test LEaver","False","False","LEAVER-HOLD","False","True","True","Automated Leaver Offboarding","SUCCESS"
